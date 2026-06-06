@@ -1,0 +1,14 @@
+x=123
+y=23
+z=x+y
+print(z)
+d=x+y*z
+print(d)
+a=1.02
+c=d+a
+print(c)
+type(c)
+int(d)
+int(c)
+print(int(d))
+print(int(c))
