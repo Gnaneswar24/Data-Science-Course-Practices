@@ -1,0 +1,19 @@
+x=8.6
+y=9
+a="Hi Python"
+b=2+3j
+y=int(x)
+print(x)
+print(type(x))
+print(y)        
+print(type(y))
+print(a)                
+print(type(a)) 
+print(b)
+print(type(b))
+d=a[1:100]
+print(d)
+print(type(d))
+f=a[:5]
+print(f)
+print(type(f))
