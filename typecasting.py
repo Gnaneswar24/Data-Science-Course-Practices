@@ -1,0 +1,36 @@
+import sys
+a=8
+ac=print(float((a)))
+be=print(str((a)))
+cf=print(complex((a)))
+df=print(bool((a)))
+at=print(type(a))
+b=True
+aw=print(int((b)))
+d=print(float((b)))
+e=print(str((b)))
+f=print(complex((b)))
+g=print(type(b))
+fl=8.6
+ck=print(int((fl)))
+cl=print(bool((fl)))
+ch=print(str((fl)))
+ci=print(complex((fl)))
+cj=print(type(fl))
+s="Hi Python"
+#cm=print(int((s)))- it makes error because string cannot be converted to int
+#cn=print(float((s)))- it makes error because string cannot be converted to float       
+co=print(bool((s)))
+#cp=print(complex((s)))-it makes error because string cannot be converted to complex
+cq=print(type(s))
+o=2+3j
+#cq=print(int((o)))- it makes error because complex cannot be converted to int
+#cr=print(float((o)))- it makes error because complex cannot be converted to float       
+cs=print(bool((o)))
+ct=print(str((o)))
+cu=print(type(o))
+k="10"
+cv=print(int((k)))
+cw=print(float((k)))
+print(sys.getsizeof(k))
+#op=complex('9',10)- it makes error because complex() takes at most 2 arguments (3 given)
