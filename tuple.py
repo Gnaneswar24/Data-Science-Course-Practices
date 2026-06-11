@@ -1,0 +1,7 @@
+t1=(1,2,3,3,4,5,6,2,2,1)
+t2=(12,23,24)
+print(t1)
+print(t1)
+print(type(t1))
+print(t1.count(2))
+print(t2.index(12))
